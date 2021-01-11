@@ -1,6 +1,6 @@
 This is a example on how to setup a simple web based server using mySql and Javascript
 
-1) Run the Command 'sequelize init' in the terminal to Generate: Conif, Migrations, Models and Seeders Directories
+1) Run the Command 'sequelize init' in the terminal to Generate: Config, Migrations, Models and Seeders Directories
 2) Run the Command 'npm init' to generate your package.json file. This is used to install all packages need for the project.
 3) Run the Command 'npm i sequelize express mysql2' which adds these dependencies too package.json
 
