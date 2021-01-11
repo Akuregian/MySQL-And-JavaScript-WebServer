@@ -1,0 +1,1 @@
+This is a example on how to setup a simple web based server using mySql and Javascript
