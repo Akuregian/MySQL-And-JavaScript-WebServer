@@ -41,6 +41,25 @@ app.post("/api/devices", async function(req, res) {
     res.json(model);
 });
 
+
+app.put("/api/devices/:id", async function(req, res){
+    const model = await db.Model.update(req.body, {
+        where: {
+            id : req.params.id
+        }
+    })
+    res.json(model);
+})
+
+app.delete("/api/devices/:id", async function(req, res) {
+    const model = await db.Model.destroy({
+        where : {
+            id : req.params.id
+        }
+    })
+    res.json(model);
+})
+
 // ---------------------------------------------
 
 
