@@ -10,7 +10,7 @@ This is a example on how to setup a simple web based server using mySql and Java
 
 4) Now you want to create your mySql Database Model..
     - This can be done inside the models Directory; this will be a .js file
-    '''javascript
+    ```javascript
     module.exports = function(sequelize, DataTypes) {
     const Model = sequelize.define("Model", {
         "description" : {
@@ -28,4 +28,4 @@ This is a example on how to setup a simple web based server using mySql and Java
         }
     })
 }
-    '''
+    ```
