@@ -3,6 +3,7 @@ This is a example on how to setup a simple web based server using mySql and Java
 **If You Clone This Repo: Run the Command 'npm i' To install all required packages**
 
 1) Run the Command 'sequelize init' in the terminal to Generate: Config, Migrations, Models and Seeders Directories
+   - [If No Sequelize] run: npm install sequelize -g
 2) Run the Command 'npm init' to generate your package.json file. This is used to install all packages need for the project.
 3) Run the Command 'npm i sequelize express mysql2' which adds these dependencies too package.json
 
