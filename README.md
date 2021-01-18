@@ -37,9 +37,10 @@ This is a example on how to setup a simple web based server using mySql and Java
 5) Create your Server.js file
     - This is where you create your get, post, put and delete methods
 6) Create a new Directory:
-    - Add the Files - index.html          : this will render stuff too the web page
-                    - service-worker.js   : service worker to work even if offline
-                    - manifest.json       : description of the app
+     'Add the Files' 
+    - index.html: this will render stuff too the web page
+    - service-worker.js: service worker to work even if offline
+    - manifest.json: description of the app
 
 7) Create your mySql database. Make sure the Database matches the name 'developement' name in the config.json file
     - Start Your My Sql 
